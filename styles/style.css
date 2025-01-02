@@ -1,0 +1,96 @@
+
+
+.work-sans-normal-name{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+/* shared style */
+.font-color{
+    color: #FF0000;
+}
+
+
+/* banner style */
+.banner{
+    align-items: center;
+    /* width: 1320px; */
+    height: 600px;
+    border-radius: 16px;
+    background-image: url(../images/Banner\ Image.png);
+    margin: 0 140px;
+}
+.banner-content{
+    padding: 177px 344px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.banner-title{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.banner-subtitle{
+    font-size: 70px;
+}
+/* main section style */
+main{
+    margin-top:120px ;
+    margin-bottom: 120px;
+}
+.discount-section{
+    background-image: url(../images/New\ Year\ Photo.png);
+    /* width: 802px; */
+    /* height: 806px; */
+    /* background-repeat: none; */
+    margin: 0 400px;
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    /* background-position: bottom center; */
+    text-align: center;
+    
+    
+}
+.offer-tag{
+    font-weight: bold;
+    font-size: 88px;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+.offer-slogun{
+    font-weight: 200px;
+    font-size: 24px;
+    /* margin-top: 48px; */
+}
+.offer-categories{
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 16px;
+}
+/* party section */
+.party{
+    background-image: url(../images/Vectorrr.png);
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: none;
+}
+.party-container{
+    display: flex;
+    padding: 60px 130px;
+    gap: 30px;
+}
+.party-greeting{
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.party-description{
+    font-size: 18px;
+    color:#FFFFFF ;
+}
+.party-details > h5{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
